@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+    <style type="text/css">
+        body {
+            background-color: cyan;
+        }
+        <!--
+        .tips {					/* tips というクラス名のスタイル */
+            position: absolute;		/* 表示位置の設定 */
+            visibility: hidden;		/* 非表示の設定 */
+            width: 200px;			/* 表示部の横幅 */
+            background-color: #ffeeff;	/* 背景色 */
+            border: 1px solid #0000ff;	/* 線の太さ、線の種類、枠線の色 */
+            font-size: 10pt;		/* フォントの大きさ */
+            font-family: Tahoma, Verdana;	/* フォントの指定 */
+            text-align: center;		/* 文字の位置 */
+        }
+        -->
+        </style>
+        <script type="text/javascript">
+        <!--
+        function show(id) {
+            if (document.getElementById) {
+                var ele = document.getElementById(id);
+                ele.style.visibility = (ele.style.visibility == "visible") ? "hidden": "visible";
+            }
+        }
+        // -->
+        </script>
+</head>
+<body>
+    <center><h1>自己紹介</h1></center>
+    <p>長岡 政宏<br>
+    ネットで使う名前:namasan<br>
+    血液型 A型<br>
+    <a id="pro" href="prof.html">プロフィール</a></p>
+    </p>
+    <span onmouseover="show('menu1');" onmouseout="show('menu1');">
+  <a href="">好きなゲーム</a><br>
+  <span id="menu1" class="tips">
+  <a href="hitode.html">伝説のスタフィー</a><br>
+  <a href="introgame.html">ストリートファイターV</a><br>
+  <a href="dark.html">DARK SOULS</a><br>
+  <a href="megaman.html">ロックマンエグゼ</a><br>
+  </span>
+</span>
+</body>
+</html>

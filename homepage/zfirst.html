@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>捕まえて！</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #test{
+            visibility: hidden;
+            display: inline;
+        }
+    </style>
+    <script>
+        function pushButton(){
+            document.getElementById("test").style.visibility = "visible";
+        }
+    </script>
+</head>
+<body>
+    <button onclick="pushButton()">このボタンを押して箱を捕まえて！</button><br>
+    <marquee behavior="alternate" direction="up" height="700" scrollamount="20" truespeed><marquee direction="right" scrollamount="20" truespeed><a id="test" href="top.html"><img src="無題.png"></a></marquee></marquee>
+</body>
+</html>
